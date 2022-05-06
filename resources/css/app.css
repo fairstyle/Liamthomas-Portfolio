@@ -1,0 +1,9 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Kaushan+Script&family=Lobster&display=swap');
+
+.link{
+    @apply text-white block p-3 font-bold hover:bg-[#FFD787] rounded-full hover:text-[#243668]
+}
