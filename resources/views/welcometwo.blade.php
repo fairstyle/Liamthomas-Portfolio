@@ -65,15 +65,15 @@
             <h1 class="text-2xl font-black text-gray-600">(Información)</h1>
         </div>
         <div class="lg:container mx-auto md:flex gap-5 md:w-full px-3 h-auto pb-5">
-            <div class="hidden lg:block lg:right w-6/6 lg:w-1/3 max-auto bg-no-repeat bg-contain bg-center lg:pr-10 hover:scale-110 duration-200" style="background-image: url({{ asset('images/embarazada.png') }})"></div>
+            <div class="hidden lg:block lg:right w-6/6 lg:w-1/3 max-auto bg-no-repeat bg-contain bg-center lg:pr-10 hover:scale-110 duration-200" style="background-image: url({{ asset('images/yo.jpeg') }})"></div>
             <div class="lg:left w-6/6 lg:w-2/3 max-auto pt-10 text-center lg:text-left lg:pl-10 m-auto mt-1 lg:mt-auto">
                 <span class="bg-[#243668] rounded-md py-1 px-3 text-white font-bold text-sm uppercase">Aun no nazco 😢</span>
-                <h1 class="text-3xl md:text-6xl pb-5 font-black text-white">Soy un <b class="text-[#FFE288]">bebe</b> aun sin nacer, molestando en la panza de mi <a href="#Padres" class="text-[#243668] cursor-pointer">Mamá</a> y pegándole patadas a mi <a href="#Padres" class="text-[#243668] cursor-pointer">Papá</a>. Mi fecha estimada para molestar a mis padres en la vida real es desde <b class="text-[#FFE288]">Agosto</b>, asi que espero que se estén preparando!</h1>
+                <h1 class="text-3xl md:text-6xl pb-5 font-black text-white">Hola soy <b class="text-[#FFE288]">Liam</b>, aun no nazco y ya estoy jugando, dando vueltas y pateando la panza de mi mami. Falta cada vez menos para nacer y hacer felices a mis <a href="#Padres" class="text-[#243668] cursor-pointer">papis</a> para poder jugar con ellos. Tengo fecha para <b class="text-[#FFE288]">Agosto</b>, así que espero que se estén preparando!</h1>
                 <a href="#Padres" class="my inline-flex text-white block py-3 px-8 font-bold bg-[#243668] hover:bg-[#FFE288] rounded-full text-white hover:text-[#243668] transition duration-300 hover:scale-110">Mis Padres</a>
             </div>
         </div>
         <div class="block lg:hidden pt-16 h-[400px] px-5">
-            <div class="animate__animated animate__backInLeft h-full bg-no-repeat bg-contain bg-center" style="background-image: url({{ asset('images/embarazada.png') }});"></div>
+            <div class="animate__animated animate__backInLeft h-full bg-no-repeat bg-contain bg-center" style="background-image: url({{ asset('images/yo.jpeg') }});"></div>
         </div>
         <div class="h-3 bg-repeat-x relative z-50 rotate-180 -bottom-2" style="background-image: url({{ asset('images/wave-blue.png') }})"></div>
     </section>
@@ -85,13 +85,13 @@
         </div>
         <div class="container mx-auto block md:flex gap-5 w-full px-3 pb-5 h-auto">
             <div class="text-center w-6/6 md:w-3/6 lg:w-2/6 max-auto pb-10 md:pb-1">
-                <div class="block lg:hidden h-[200px] bg-no-repeat bg-contain bg-center hover:scale-110 duration-200 rounded-full" style="background-image: url({{ asset('images/papiii.jpg') }})"></div>
+                <div class="block lg:hidden h-[200px] bg-no-repeat bg-contain bg-center hover:scale-110 duration-200 rounded-full" style="background-image: url({{ asset('images/yopapa.jpg') }})"></div>
                 <h1 class="text-lg lg:text-4xl font-black text-[#243668] text-center underline decoration-4 decoration-[#FFE288] mb-2">Papiii</h1>
                 <h1 class="h-auto md:h-[300px] lg:h-auto xl:h-[300px] font-black text-[#243668] bg-[#FFE288] rounded-md py-5">
-                    <a class="px-5 text-lg lg:text-2xl">Estu......, NO. Ingeniero informático, actualmente desarrollador web para Wom y el mejor papito del año 😜 obvio.</a>
+                    <a class="px-5 text-lg lg:text-2xl">Estu......, NO. Ingeniero informático, actualmente desarrollador web y el mejor papito del año 😜 obvio.</a>
                     <ul class="text-left list-disc list-inside pl-10 text-xl pt-5">
-                        <li>Película fav: <b class="text-[#88D3F2]">El Hoyo</b></li>
-                        <li>Serie fav: <b class="text-[#88D3F2]">La casa de papel</b></li>
+                        <li>Película fav: <b class="text-[#88D3F2]">El precio del mañana</b></li>
+                        <li>Serie fav: <b class="text-[#88D3F2]">The last man on earth</b></li>
                         <li>Comida fav: <b class="text-[#88D3F2]">Fideos con Salsa</b></li>
                         <li>Red social fav: <b class="text-[#88D3F2]">Instagram</b></li>
                     </ul>
@@ -108,18 +108,18 @@
                     </a>
                 </div>
             </div>
-            <div class="hidden lg:block left w-1/6 max-auto bg-no-repeat bg-contain bg-center hover:scale-110 duration-200 rounded-full" style="background-image: url({{ asset('images/papiii.jpg') }})"></div>
+            <div class="hidden lg:block left w-1/6 max-auto bg-no-repeat bg-contain bg-center hover:scale-110 duration-200 rounded-full" style="background-image: url({{ asset('images/yopapa.jpg') }})"></div>
             <div class="hidden lg:block right w-1/6 max-auto bg-no-repeat bg-contain bg-center hover:scale-110 duration-200 rounded-full" style="background-image: url({{ asset('images/mamiii.jpg') }})"></div>
             <div class="text-center w-6/6 md:w-3/6 lg:w-2/6 max-auto">
                 <div class="block lg:hidden h-[200px] bg-no-repeat bg-contain bg-center hover:scale-110 duration-200 rounded-full" style="background-image: url({{ asset('images/mamiii.jpg') }})"></div>
                 <h1 class="text-lg lg:text-4xl font-black text-[#243668] text-center underline decoration-4 decoration-[#FEB8CC] mb-2">Mamiii</h1>
                 <h1 class="h-auto md:h-[300px] lg:h-auto xl:h-[300px] text-lg lg:text-2xl font-black text-[#243668] bg-[#FEB8CC] rounded-md py-5">
-                    <a class="px-5 text-lg lg:text-2xl">Estudiante de enfermeria de 2.º año</a>
+                    <a class="px-5 text-lg lg:text-2xl">Estudiante de técnico en  enfermería segundo año/santo Tomás 20 años</a>
                     <ul class="text-left list-disc list-inside pl-10 text-xl pt-5">
-                        <li>Película fav: <b class="text-white">Sin info</b></li>
-                        <li>Serie fav: <b class="text-white">Sin info</b></li>
-                        <li>Comida fav: <b class="text-white">Sin info</b></li>
-                        <li>Red social fav: <b class="text-white">Sin info</b></li>
+                        <li>Película fav: <b class="text-white">Si decido quedarme</b></li>
+                        <li>Serie fav: <b class="text-white">Grey's Anatomy</b></li>
+                        <li>Comida fav: <b class="text-white">pollo apanado con puré 🤤</b></li>
+                        <li>Red social fav: <b class="text-white">Instagram</b></li>
                     </ul>
                 </h1>
                 <div class="flex w-full gap-5 justify-center mt-5">

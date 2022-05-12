@@ -28,7 +28,7 @@
 
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
-        <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnxAguEBk3U2Bvm9KNFF5DopusUeSSzhA&callback=initMap"></script>
+        <script defer src="https://maps.googleapis.com/maps/api/js?key={{env("GMAPS_KEY")}}&callback=initMap"></script>
     </head>
     <body>
         <div class="font-sans text-gray-900 antialiased">
