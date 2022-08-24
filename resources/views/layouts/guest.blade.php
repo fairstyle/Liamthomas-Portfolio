@@ -14,7 +14,7 @@
         <meta property="og:title" content="Liam Thomas"/>
         <meta property="og:type" content="Portafolio de un bebe y sus padres"/>
         <meta property="og:url" content="https://liamthomas.cl"/>
-        <meta property="og:image" content="{{ asset('images/xd2.png') }}"/>
+        <meta property="og:image" content="{{ asset('images/webp/xd2.webp') }}"/>
         <meta property="og:description" content="Liam Thomas - Pronto llegare a este mundo!"/>
 
         <title>{{ config('app.name', 'Laravel') }}</title>

@@ -8,7 +8,7 @@
     <header class="mx-auto drop-shadow-2xl" id="Inicio">
         <nav class="bg-[#243668] flex justify-center lg:justify-start items-center">
             <div class="block w-5/6 pl-2 pt-2 lg:w-1/6 animate__animated animate__fadeInUp">
-                <img src="{{ asset('images/g6.png') }}" width="70%" alt="logo">
+                <img src="{{ asset('images/webp/g6.webp') }}" width="70%" alt="logo">
             </div>
             <div class="hidden lg:block w-4/6 animate__animated animate__fadeInUp">
                 <ul class="menu flex items-center justify-center gap-5">
@@ -45,9 +45,9 @@
             </div>
         </nav>
     </header>
-    <section class="bg-[#243668] h-full lg:h-screen bg-repeat bg-contain lg:bg-no-repeat lg:bg-cover" style="background-image: url({{ asset('images/probar2.png') }})">
+    <section class="bg-[#243668] h-full lg:h-screen bg-repeat bg-contain lg:bg-no-repeat lg:bg-cover" style="background-image: url({{ asset('images/webp/probar2.webp') }})">
         <div class="block lg:hidden pt-16 h-[400px] px-5">
-            <div class="animate__animated animate__backInDown h-full bg-no-repeat bg-contain bg-center" style="background-image: url({{ asset('images/xd2.png') }}); animation-fill-mode:none; -webkit-animation-fill-mode:none;"></div>
+            <div class="animate__animated animate__backInDown h-full bg-no-repeat bg-contain bg-center" style="background-image: url({{ asset('images/webp/xd2.webp') }}); animation-fill-mode:none; -webkit-animation-fill-mode:none;"></div>
         </div>
         <div class="lg:container mx-auto md:flex gap-5 md:w-full px-3 h-[400px] lg:h-screen">
             <div class="animate__animated animate__backInLeft lg:left w-6/6 lg:w-2/3 max-auto pt-10 text-center lg:text-left lg:pl-10 m-auto mt-1 lg:mt-auto">
@@ -55,7 +55,7 @@
                 <h1 class="text-3xl md:text-6xl pb-5 font-black text-white animate__animated animate__backInDown">El mundo mágico de <b class="text-[#AFE1F6]">Liam Thomas</b>!</h1>
                 <a href="#sobreMi" class="my inline-flex text-white block py-3 px-8 font-bold bg-[#88D3F2] hover:bg-[#FFE288] rounded-full text-[#243668] hover:text-[#243668] transition duration-300 hover:scale-110">Sobre mi</a>
             </div>
-            <div class="animate__animated animate__backInDown hidden lg:block lg:right w-6/6 lg:w-1/3 max-auto bg-no-repeat bg-contain bg-center lg:pr-10" style="background-image: url({{ asset('images/xd2.png') }})"></div>
+            <div class="animate__animated animate__backInDown hidden lg:block lg:right w-6/6 lg:w-1/3 max-auto bg-no-repeat bg-contain bg-center lg:pr-10" style="background-image: url({{ asset('images/webp/xd2.webp') }})"></div>
         </div>
     </section>
     <section id="sobreMi" class="bg-[#88D3F2] -scroll-mt-[10px]">
@@ -65,7 +65,7 @@
             <h1 class="text-2xl font-black text-gray-600">(Información)</h1>
         </div>
         <div class="lg:container mx-auto md:flex gap-5 md:w-full px-3 h-auto pb-5">
-            <div class="hidden lg:block lg:right w-6/6 lg:w-1/3 max-auto bg-no-repeat bg-contain bg-center lg:pr-10 hover:scale-110 duration-200" style="background-image: url({{ asset('images/yo.jpeg') }})"></div>
+            <div class="hidden lg:block lg:right w-6/6 lg:w-1/3 max-auto bg-no-repeat bg-contain bg-center lg:pr-10 hover:scale-110 duration-200" style="background-image: url({{ asset('images/webp/yo.webp') }})"></div>
             <div class="lg:left w-6/6 lg:w-2/3 max-auto pt-10 text-center lg:text-left lg:pl-10 m-auto mt-1 lg:mt-auto">
                 <span class="bg-[#243668] rounded-md py-1 px-3 text-white font-bold text-sm uppercase">Aun no nazco 😢</span>
                 <h1 class="text-3xl md:text-6xl pb-5 font-black text-white">Hola soy <b class="text-[#FFE288]">Liam</b>, aun no nazco y ya estoy jugando, dando vueltas y pateando la panza de mi mami. Falta cada vez menos para nacer y hacer felices a mis <a href="#Padres" class="text-[#243668] cursor-pointer">papis</a> para poder jugar con ellos. Tengo fecha para <b class="text-[#FFE288]">Agosto</b>, así que espero que se estén preparando!</h1>
@@ -73,7 +73,7 @@
             </div>
         </div>
         <div class="block lg:hidden pt-16 h-[400px] px-5">
-            <div class="animate__animated animate__backInLeft h-full bg-no-repeat bg-contain bg-center" style="background-image: url({{ asset('images/yo.jpeg') }});"></div>
+            <div class="animate__animated animate__backInLeft h-full bg-no-repeat bg-contain bg-center" style="background-image: url({{ asset('images/webp/yo.webp') }});"></div>
         </div>
         <div class="h-3 bg-repeat-x relative z-50 rotate-180 -bottom-2" style="background-image: url({{ asset('images/wave-blue.png') }})"></div>
     </section>
@@ -85,7 +85,7 @@
         </div>
         <div class="container mx-auto block md:flex gap-5 w-full px-3 pb-5 h-auto">
             <div class="text-center w-6/6 md:w-3/6 lg:w-2/6 max-auto pb-10 md:pb-1">
-                <div class="block lg:hidden h-[200px] bg-no-repeat bg-contain bg-center hover:scale-110 duration-200 rounded-full" style="background-image: url({{ asset('images/yopapa.jpg') }})"></div>
+                <div class="block lg:hidden h-[200px] bg-no-repeat bg-contain bg-center hover:scale-110 duration-200 rounded-full" style="background-image: url({{ asset('images/webp/yopapa.webp') }})"></div>
                 <h1 class="text-lg lg:text-4xl font-black text-[#243668] text-center underline decoration-4 decoration-[#FFE288] mb-2">Papiii</h1>
                 <h1 class="h-auto md:h-[300px] lg:h-auto xl:h-[300px] font-black text-[#243668] bg-[#FFE288] rounded-md py-5">
                     <a class="px-5 text-lg lg:text-2xl">Estu......, NO. Ingeniero informático, actualmente desarrollador web y el mejor papito del año 😜 obvio.</a>
@@ -108,7 +108,7 @@
                     </a>
                 </div>
             </div>
-            <div class="hidden lg:block left w-1/6 max-auto bg-no-repeat bg-contain bg-center hover:scale-110 duration-200 rounded-full" style="background-image: url({{ asset('images/yopapa.jpg') }})"></div>
+            <div class="hidden lg:block left w-1/6 max-auto bg-no-repeat bg-contain bg-center hover:scale-110 duration-200 rounded-full" style="background-image: url({{ asset('images/webp/yopapa.webp') }})"></div>
             <div class="hidden lg:block right w-1/6 max-auto bg-no-repeat bg-contain bg-center hover:scale-110 duration-200 rounded-full" style="background-image: url({{ asset('images/mamiii.jpg') }})"></div>
             <div class="text-center w-6/6 md:w-3/6 lg:w-2/6 max-auto">
                 <div class="block lg:hidden h-[200px] bg-no-repeat bg-contain bg-center hover:scale-110 duration-200 rounded-full" style="background-image: url({{ asset('images/mamiii.jpg') }})"></div>
@@ -132,8 +132,8 @@
         <div class="h-3 bg-repeat-x relative z-50 rotate-180 -bottom-2" style="background-image: url({{ asset('images/wave-white.png') }})"></div>
     </section>
 
-    <section id="BabyShower" class="bg-[#243668] bg-repeat-x bg-contain -scroll-mt-[10px]" style="background-image: url({{ asset('images/g9.png') }})" >
-        <div class="w-full h-20 pt-5 bg-repeat-x bg-contain" style="background-image: url({{ asset('images/g8.png') }})"></div>
+    <section id="BabyShower" class="bg-[#243668] bg-repeat-x bg-contain -scroll-mt-[10px]" style="background-image: url({{ asset('images/webp/g9.webp') }})" >
+        <div class="w-full h-20 pt-5 bg-repeat-x bg-contain" style="background-image: url({{ asset('images/webp/g8.webp') }})"></div>
         <div class="text-center py-10 items-center justify-items-center">
             <h1 class="text-8xl font-black text-white font-tituloEvento">
                 <b class="hidden md:inline">🥳</b> Baby shower <b class="hidden md:inline">🎉</b>
@@ -142,11 +142,11 @@
         </div>
         <div class="h-[512px] w-full flex pb-5 px-5 mb-5 lg:mb-16 items-center justify-between">
             <div class="hidden md:block w-2/6">
-                <img style="transform:scale(-1,1);" class="h-full ml-auto" src="{{ asset('images/bearHappy.png') }}" alt="happyBear">
+                <img style="transform:scale(-1,1);" class="h-full ml-auto" src="{{ asset('images/webp/bearHappy.webp') }}" alt="happyBear">
             </div>
             <div id="map" class="w-full md:w-2/6 h-full"></div>
             <div class="hidden md:block w-2/6">
-                <img class="h-full" src="{{ asset('images/bearHappy.png') }}" alt="happyBear">
+                <img class="h-full" src="{{ asset('images/webp/bearHappy.webp') }}" alt="happyBear">
             </div>
         </div>
         <div class="bg-[#88D3F2] rounded-lg md:rounded-full mx-[20px] lg:mx-[100px] mb-[20px] p-[20px] hover:scale-110 duration-200">
@@ -169,7 +169,7 @@
         <div class="mx-auto mt-3 text-center">
             <div class="grid grid-cols-6 gap-2 my-2">
                 <div class="col-span-6 md:col-span-2 flex justify-center items-center md:pl-[20px]">
-                    <img class="h-24 cursor-pointer" src="{{ asset('images/dg6.png') }}" alt="Logo" onclick="window.location.href='#Inicio'">
+                    <img class="h-24 cursor-pointer" src="{{ asset('images/webp/dg6.webp') }}" alt="Logo" onclick="window.location.href='#Inicio'">
                 </div>
                 <div class="col-span-6 md:col-span-2"></div>
                 <div class="col-span-6 md:col-span-2">
